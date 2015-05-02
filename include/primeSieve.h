@@ -20,6 +20,7 @@ class primeSieve
         void MaxGap();
         void checkPrime(int);
         void primeFactor(int);
+        int binaryCheck( int thenumber)
 
     protected:
     private:
