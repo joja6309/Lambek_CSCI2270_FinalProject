@@ -7,6 +7,20 @@ primeSieve::primeSieve(int m)
     build();
 
 }
+primeSieve::binaryCheck( int thenumber) // Checks to see if the number you entered is also binary 
+{ 
+	
+	
+	int newnumber;
+	newnumber = thenumber % 10;
+		if(newnumber > 1)
+		{
+			return 0;
+		}
+		else 
+		     return 1; 
+	
+} 
 void printOptions()
 {
     std::cout<<"1: Check if a number is prime"<<std::endl;
